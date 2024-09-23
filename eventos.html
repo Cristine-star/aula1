@@ -47,10 +47,10 @@
                 }
             }
             else if(opcao == 3){
-                var exibir = "Palestrantes e Temas: \n"
+                var exibir = "Palestrantes e Temas: \n";
                 for(var i=0; i<totalPalestrante; i++){
-                    exibir +=listaPalestrante[totalPalestrante]+ " - ";
-                    exibir +=listaPalestra[totalPalestrante];
+                    exibir +=listaPalestrante[i]+ " - ";
+                    exibir +=listaPalestra[i];
                 }
                 alert(exibir);
             }
